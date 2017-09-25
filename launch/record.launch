@@ -1,0 +1,6 @@
+<launch>
+  <arg name="record_actions" default="false" />
+
+ <node pkg="rosbag" type="record" name="action_recorder"
+       args="-a"   if="$(arg record_actions)" />
+</launch>

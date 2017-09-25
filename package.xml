@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ros_input_output</name>
+  <version>0.0.1</version>
+  <description>Pathfinder package</description>
+  <maintainer email="povilas.daniusis@gmail.com">Povilas D., Linas P.</maintainer>
+  <license>GPLv3</license>
+  <url type="website">http://pd.hacker.lt</url>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>message_runtime</depend>
+  <depend>cv_bridge</depend>
+  <export>
+  </export>
+</package>

@@ -1,0 +1,3 @@
+<launch>
+     <node name="keyboard_node" pkg="pathfinder" type="keyboard_node" output="screen" />
+</launch>

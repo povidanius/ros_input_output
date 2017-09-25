@@ -1,0 +1,3 @@
+<launch>
+     <node name="mouse_node" pkg="pathfinder" type="mouse_node" output="screen" />
+</launch>

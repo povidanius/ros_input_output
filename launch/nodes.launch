@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node name="screen_node" pkg="pathfinder" type="screen_node" output="screen" />  
+  <node name="keyboard_node" pkg="pathfinder" type="keyboard_node" output="screen" />
+  <node name="mouse_node" pkg="pathfinder" type="mouse_node" output="screen" />
+
+</launch>
+
