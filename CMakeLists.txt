@@ -48,9 +48,6 @@ include_directories(
 
 
 
-#add_library(keystack_lib src/keystack.cpp)
-#target_link_libraries(keystack_lib ${roscpp_LIBRARIES} )
-
 add_executable(screen_node src/screengrab_ros_node.cpp)
 
 target_link_libraries(screen_node
@@ -67,7 +64,6 @@ target_link_libraries(keyboard_node
    Xext
    Xinerama
    Xtst
-#   keystack_lib
    ${catkin_LIBRARIES}
    ${roscpp_LIBRARIES}
 )

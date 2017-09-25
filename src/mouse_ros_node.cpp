@@ -288,8 +288,8 @@ int main(int argc, char **argv)
     ros::init(argc, argv, "mouse_ros_node");
     ros::NodeHandle nh;
 
-    mouse_pub = nh.advertise<ros_input_output::gui_event>("/mouse/read", 1);
-    ros::Subscriber mouse_sub = nh.subscribe("/mouse/write", 1, mouseCallback);
+    mouse_pub = nh.advertise<ros_input_output::gui_event>("/io/read", 1);
+    ros::Subscriber mouse_sub = nh.subscribe("/io/write", 1, mouseCallback);
 
 
     XRecordContext xrd;

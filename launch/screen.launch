@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <launch>
-  <node name="screen_node" pkg="pathfinder" type="screen_node" output="screen" />  
+  <node name="screen_node" pkg="ros_input_output" type="screen_node" output="screen" />  
 </launch>

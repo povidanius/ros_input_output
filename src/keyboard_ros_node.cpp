@@ -203,10 +203,10 @@ int
 main(int argc, char **argv)
 {
 
-    ros::init(argc, argv, "keyboard_node"); //test
+    ros::init(argc, argv, "keyboard_node"); 
     ros::NodeHandle nh;
-    key_pub_ = nh.advertise<ros_input_output::gui_event>("/keyboard/read", 1);
-    key_sub_ = nh.subscribe("/keyboard/write", 1, keyboardCallback);
+    key_pub_ = nh.advertise<ros_input_output::gui_event>("/io/read", 1);
+    key_sub_ = nh.subscribe("/io/write", 1, keyboardCallback);
 
 
     XRecordContext xrd;

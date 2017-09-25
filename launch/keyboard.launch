@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <launch>
-     <node name="keyboard_node" pkg="pathfinder" type="keyboard_node" output="screen" />
+     <node name="keyboard_node" pkg="ros_input_output" type="keyboard_node" output="screen" />
 </launch>
